@@ -1,0 +1,591 @@
+- name: TQuAD
+  dsc: A Q&A data set on Turkish & Islamic Science and History
+  link: https://github.com/TQuad/turkish-nlp-qa-dataset
+  license: unknown
+  category: corpus
+  subcat: Q&A
+  applications: [ q&a ]
+- dsc: A Q&A data set from BOUN
+  license: unknown
+  category: corpus
+  subcat: Q&A
+  applications: [ q&a ]
+  citations: [derici2014]
+  notes: Authors claim to release the data set, but no link in the article.
+- name: TTC-4900
+  dsc: A text categorization data set
+  link: https://www.kaggle.com/savasy/ttc4900
+  citation: [kilinc2017]
+  category: corpus
+  subcat: text categorization
+  applications: [text categorization]
+  license: CC0
+- name: TTC-3600
+  dsc: A text catogiraztion data set
+  link: https://github.com/denopas/TTC-3600
+  citation: [kilinc2017]
+  category: corpus
+  subcat: text categorization
+  applications: [text categorization]
+  license: unknown
+- dsc: A sentiment analysis data set from İTÜ
+  citation: [yildirim2014sa]
+  link: http://tools.nlp.itu.edu.tr/Datasets
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  available: false
+- dsc: A sentiment analysis data set (from Eindhowen)
+  link: https://www.win.tue.nl/~mpechen/projects/smm/#Datasets
+  citation: [demirtas2013]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+- dsc: A sentiment analysis data set (from Başkent Uni.)
+  link: http://www.baskent.edu.tr/~msert/research/datasets/SentimentDatasetTR.html
+  citation: [hayran2017]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  note: requires email
+- name: wikiann
+  dsc: A multi-lingual Wikipedia named-entity data set
+  citation: [pan2017]
+  link: https://elisa-ie.github.io/wikiann/
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  note: multilingual
+  license: ODC-by
+- dsc: A named-entity data set (from Bilkent)
+  citations: [yeniterzi2011, tur2003]
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  notes: used in quite a few studies, not publicly avialable
+  available: false
+  license: unclear
+- dsc: A Twitter NER data set
+  citation: [kucuk2014]
+  link: http://optima.jrc.it/Resources/2014_JRC_Twitter_TR_NER-dataset.zip
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  license: unclear
+- dsc: A data set for NER and Stance detection
+  citation: [kucuk2019]
+  category: corpus
+  subcat: NER/stance
+  link: https://github.com/dkucuk/Tweet-Dataset-NER-SD
+  license: unclear
+- dsc: A NER data from METU
+  citation: [kucuk2009video,kucuk2009,kuccuk2016]
+  link: https://github.com/dkucuk/NER-Turkish-News
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  license: unclear
+  notes: There are a series of papers describe some NER resources. The link points to only one. No indication that others are published somehow.
+  available: false
+- dsc: A NER data from BOUN
+  license: unclear
+  citations: [eken2015]
+  available: false
+  category: corpus
+  subcat: NER
+  notes: multiple data sets from the same grup, the second study claims to include multiple domains. somewhat mystical data description in the paper - may be worth asking
+- dsc: A NER data from İTÜ
+  link: http://tools.nlp.itu.edu.tr/Datasets
+  license: CC-by-nc-sa
+  citations: [seker2012,ccelikkaya2013]
+  available: requires manual form
+  category: corpus
+  subcat: NER
+  notes: multiple data sets from the same group, the second study claims to include multiple domains. Somewhat mysterious data description in the paper - may be worth asking
+- name: METU Corpus
+  dsc: a general-purpose, balanced corpus
+  category: corpus
+  subcat: general purpose
+  link: https://ii.metu.edu.tr/metu-corpora-research-group
+  license: custom
+  available: false
+  citations: [say2002]
+- name: TNC
+  dsc: a general-purpose, balanced corpus
+  longname: Turkish National Corpus
+  link: https://www.tnc.org.tr/
+  available: false
+  license: restricted use
+  category: corpus
+  subcat: general purpose
+  citations: [aksan2012]
+- name: UD-IMST
+  dsc: the oldest Turkish treebank (UD version)
+  link: https://github.com/UniversalDependencies/UD_Turkish-IMST/
+  category: corpus
+  subcat: treebank
+  license: CCPL (doubtful)
+  citations: [atalay2003,oflazer2003,sulubacak2016]
+  notes: acknowledge the contribution of BOUN
+- name: UD-GB
+  dsc: A treebank of grammar-book examples
+  link: https://github.com/UniversalDependencies/UD_Turkish-GB/
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+  citations: [coltekin2015tlt]
+- name: UD-BOUN treebank
+  dsc: Another treebank from BOUN
+  link: https://github.com/boun-tabi/UD_Turkish-BOUN
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+  citations: [turk2020]
+- name: UD-PUD
+  dsc: Turkish part of Google's parallel treebank
+  link: https://github.com/UniversalDependencies/UD_Turkish-PUD/
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+  citations: [zeman2017]
+- dsc: İTÜ web treebank
+  link: http://tools.nlp.itu.edu.tr/Datasets
+  category: corpus
+  subcat: treebank
+  license: CC-by-nc-sa
+  citations: [pamay2015]
+  available: requires signed for
+- dsc: Turksih WordNet from the BalkaNet project
+  link: https://bitbucket.org/ozlemc/twn/downloads/?tab=downloads
+  citations: [bilgin2004]
+  category: lexical resource
+  subcat: wordnet
+  license: unclear
+- name: SETimes
+  dsc: A parallel news corpus of Balkan languages
+  longname: South-East European Times
+  category: corpus
+  subcat: parallel
+  link: http://www.statmt.org/setimes/
+  license: custom
+  citations: [tyers2010]
+  notes: Part of parallel corpora for Balkan languages (also avialable as part of OPUS)
+- name: IWLST 2013
+  dsc: Parallel spoken language corpus 
+  category: corpus
+  subcat: parallel, en-tr
+  link: http://workshop2013.iwslt.org/59.php#Data_Supplied
+  license: unclear
+  citations: [cettolo2013]
+  notes: TED talks
+- name: troff
+  dsc: A corpus of Turkish offensive language
+  category: corpus
+  subcat: offensive language
+  textsource: [twitter]
+  link: https://coltekin.github.io/offensive-turkish/
+  citations: [coltekin2020lrec]
+  license: CC-by
+- name: OPUS
+  dsc: Multi-lingual open, parallel corpora
+  category: corpus
+  subcat: parallel, multilingual
+  link: http://opus.nlpl.eu/
+  license: various free
+  citations: [tiedemann2012]
+  notes:"Collection of parallel corpora. A few collections including include Turkish corpora: SETimes, opensubtitles, EUBookshop, Tatoeba, Tanzil, and a number of localization projects (KDE, GNOME, Ubuntu, ...}"
+- name: BTEC
+  dsc: Basic Traveling Expression Corpus (multilingual)
+  category: corpus
+  subcat: parallel/spoken, multilingual
+  license: unknown
+  citations: [kikui2003,paul2010]
+  notes: Featured in a few IWLST shared tasks, usage seem to be restricted to the participants, no direct links.
+- name: TDB
+  dsc: Turkish Discourse Bank 
+  category: corpus
+  subcat: discourse
+  link: http://medid.ii.metu.edu.tr/index_eng.html
+  citations: [zeyrek2013]
+  license: unclear
+  available: false
+- dsc: TED Multilingual Discourse Bank 
+  subcat: discourse/multilingual
+  longname: Turkish Discourse Bank 
+  citation: [zeyrek2018]
+  link: http://www.textlink.ii.metu.edu.tr/ted-multilingual-discourse-bank
+  license: unclear
+  available: false
+- dsc: METU Turkish Psycholinguistic Database
+  category: lexical resource
+  subcat: language acquisition
+  link: https://ii.metu.edu.tr/metu-corpora-research-group
+  license: unclear
+  available: through email
+  note: emailed on 2020-07-17
+- dsc: BOUN newspaper corpus
+  citations: [sak2011]
+  category: corpus
+  subcat: general purpose
+  textsource: [newspaper]
+  available: through email
+  license: unclear
+- name: Orientel
+  dsc: Recordings of Telephone conversations of Turkish Speakers in Germany
+  category: corpus
+  subcat: speech/phone
+  citations: [draxler2003]
+  license: unclear
+  available: false
+- name: OrienTel-Turkish
+  dsc: Turkish Telephone Speech 
+  category: corpus
+  subcat: speech/phone
+  citations: [ciloglu2004]
+  license: unclear
+  available: false
+  notes: seems to be commercially motivated (SIEMENS)
+- dsc: A call center speech data
+  category: corpus
+  subcat: speech/phone
+  citations: [haznedaroglu2011,haznedaroglu2014]
+  license: unclear
+  available: false
+  notes: seems to be commercially motivated
+- dsc: A broadcast speech collection
+  category: corpus
+  subcat: speech/broadcast
+  citations: [mengusoglu2001]
+  license: unclear
+  available: false
+  notes: dead link <ftp://cs.bilkent.edu.tr/pub/Turklang/corpus>
+- dsc: Multilingual ATIS
+  link: https://catalog.ldc.upenn.edu/LDC2019T04
+  category: corpus
+  subcat: spoken (?)
+  citations: [upadhyay2018]
+  available: through LDC
+  notes: Translation of original ATIS sentences
+  license: LDC
+- dsc: METU microphone speech
+  longname: Middle East Technical University Turkish Microphone Speech v 1.0
+  link: https://catalog.ldc.upenn.edu/LDC2006S33
+  category: corpus
+  subcat: spoken
+  citations: [salor2007]
+  available: through LDC
+  notes: Translation of original ATIS sentences
+  license: LDC
+- name: GlobalPhone
+  dsc: A Multilingual Text & Speech Database in 20 Languages
+  link: http://catalog.elra.info/en-us/repository/browse/ELRA-S0400/
+  category: corpus
+  subcat: spoken
+  citations: [schultz2013]
+  available: through ELRA
+  license: ELRA
+- dsc: Turkish radiology reports
+  category: corpus
+  subcat: medical
+  citations: [hadimli2011,hadimli2011b]
+  license: unknown
+  notes: Authors report IR results on radiology reports, but the corpus does not seem to be available.
+- name: BERTurk
+  dsc: Monolingual BERT embeddings for Turkish
+  link: https://github.com/stefan-it/turkish-bert/tree/1.0.0
+  doi: 10.5281/zenodo.3770923
+  category: embeddings
+  subcat: contextual/BERT
+  license: unclear
+- name: SentiTurkNet
+  dsc: A Turkish sentiment lexicon
+  link: http://myweb.sabanciuniv.edu/rdehkharghani/sentiturknet-3/
+  citations: [dehkharghani2015]
+  category: lexical resource
+  subcat: sentiment lexicon
+  license: unclear
+- dsc: A Turkish Movie Reviews corpus
+  link: http://sentilab.sabanciuniv.edu/wp-content/uploads/2015/03/TurkishMovieReviews.txt
+  citations: [dehkharghani2012]
+  category: lexical resource
+  subcat: sentiment lexicon
+  license: unclear
+- dsc: A corpus for Emotion analysis
+  citations: [boynukalin2012,boynukalin2013]
+  category: corpus
+  subcat: emotion analysis
+  license: unclear
+  notes: Note available, but may be worth asking.
+- dsc: A corpus for emotion analysis on Twitter
+  citations: [demirci2014]
+  category: corpus
+  subcat: emotion analysis
+  license: unclear
+  notes: Note available, but may be worth asking.
+- dsc: A list of "emotion words"
+  citations: [cakmak2012]
+  category: corpus
+  subcat: emotion analysis
+  license: unclear
+  notes: A short (about 200) list of emotion words. Maybe worth checking.
+- dsc: A sentiment analysis corpus from METU
+  citation: [yildirim2014]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  available: false
+- dsc: An automatically labeled large sentiment analysis corpus
+  link: http://user.ceng.metu.edu.tr/~karagoz/sfwc/
+  citation: [vural2014]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown, needs ClueWeb license
+  note: this includes a list of http://lemurproject.org/clueweb09/ IDs
+- dsc: A corpus for political SA
+  citation: [kaya2013]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  note: the work includes opinion articles with sentiment labels, but does not seem to be available in any form
+- dsc: Another Twitter corpus for sentiment analysis
+  citations: [turkmenoglu2014]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  note: another report of manually annotated Tweets (and movies sentiments), may be worth checking
+- name: Global COE
+  dsc:  A corpus of spoken Turkish from the Global COE Program 
+  link: http://cblle.tufs.ac.jp/en/
+  category: corpus
+  subcat: spoken
+  available: through email
+  license: unclear
+  notes: email sent 2020-07-21
+- dsc: Multiple resources from Yıldız NLP group (Kemik)
+  longname: Resources from Kemik NLP group
+  link: http://www.kemik.yildiz.edu.tr/
+  category: multiple resources
+  available: mostly
+  license: unclear
+- name: TurCo
+  dsc: A corpus from Dokuz Eylül
+  category: corpus
+  subcat: general purpose
+  available: false
+  license: unclear
+  notes: It may be worth requesting/checking.
+- name: STC
+  dsc: Spoken Turkish corpus 
+  link: https://std.metu.edu.tr/en/
+  citations: [ruhi2010,ruhi2012]
+  longname: Spoken Turkish Corpus
+  category: corpus
+  subcat: spoken
+  available: demo version
+  license: unclear
+  notes: Development has stopped. But, there may be considerable amount of data recorded/transcribed already.
+- dsc: A corpus of referring expressions
+  citations: [acarturk2012]
+  category: corpus
+  subcat: dialog w/ refferring expr.
+  available: false
+  license: unclear
+  notes: most probably not finished, but there may be data. It may be worth to ask.
+- dsc: Turkic word embeddings
+  link: https://github.com/elmurod1202/crosLingWordEmbTurk
+  citations: [kuriyozov2020]
+  category: corpus
+  subcat: web
+  available: false
+  license: unclear
+  notes: Cross-lingual word embeddings for  Azeri, Kazakh, Kyrgyz, Turkish, and Uzbek. Also includes induced bilingual dictionaries.
+- dsc: A Turkish PropBank
+  link: https://turkishpropbank.github.io/
+  citations: [sahin2018thesis,sahin2018]
+  category: lexical resource
+  subcat: PropBank
+  license: CC-BY-NC-SA
+  notes: seems to build on MST, also available (maybe different version) at http://tools.nlp.itu.edu.tr/Datasets
+- name: TrPropBank
+  dsc: Another Turkish PropBank
+  citations: [kara2020]
+  category: lexical resource
+  subcat: PropBank
+  license: unclear
+  available: false
+  notes: It is unclear if there is any relation with the other prop bank, likely not
+- name: KeNet
+  dsc: Another Turkish WordNet
+  link: https://github.com/StarlangSoftware/TurkishWordNet/raw/master/src/main/resources/turkish_wordnet.xml
+  citations: [ehsani2018]
+  category: lexical resource
+  subcat: wordnet
+  license: unclear
+  note: link <http://haydut.isikun.edu.tr/kenet.html> from the paper is broken, emailed on 2020-07-28
+- dsc: A work on TR-EN parallel constituency treebank
+  category: corpus
+  subcat: treebank
+  license: unclear
+  citations: [yildiz2014]
+  notes: The paper describes incomplete work on a parallel constituency treebank. Unclear if any actual treebank was published.
+- dsc: A Word-sense disambiguation data (?)
+  citations: [acikgoz2017,akccakaya2019]
+  license: unclear
+  category: lexical resource
+  subcat: WSD
+  available: false
+  notes: link down
+- dsc: A EN-SV-TR parallel treebank (most automatically annotated)
+  category: corpus
+  subcat: treebank
+  license: unclear
+  citations: [megyesi2008,megyesi2010]
+  notes: A parallel treebank, mostly annotated using automatic tools. It is large, but does not seem to be available.
+- dsc: İTÜ normalization corpus
+  link: http://tools.nlp.itu.edu.tr/Datasets
+  longname: İTÜ social media normalization data
+  category: corpus
+  subcat: (social media normalization)
+  license: unclear
+  citations: [eryigit2017]
+- dsc: A corpus of student essays
+  longname: Bilkent Student Essays Corpus
+  link: https://github.com/selimfirat/bilkent-turkish-writings-dataset
+  category: corpus
+  subcat: student essays
+  license: unclear
+  notes: The original files are at https://stars.bilkent.edu.tr/turkce/
+- name: The BiaNet corpus (parallel TR-KU-EN)
+  longname: BiaNet parallel corpus
+  category: corpus
+  subcat: parallel (TR-KU-EN)
+  link: http://opus.nlpl.eu/Bianet.php
+  license: custom
+  citations: [ataman2018]
+  notes: Original URL is at https://d-ataman.github.io/bianet/, but asks for a detailed form
+- dsc: A NER data set from Huawei research
+  citation: [sahin2017]
+  link: https://data.mendeley.com/datasets/cdcztymf4k/1
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  license: CC-by
+- dsc: A Turkic web-crawl corpus
+  citations: [baisa2012]
+  category: corpus
+  subcat: web
+  available: false
+  license: unclear
+  notes: large(ish) web-crawled corpus for Azeri, Kazakh, Kyrgyz, Turkish, Turkmen and Uzbek. Not available, but may be worth asking.
+- name: TS Corpus
+  dsc: A general-purpose corpus
+  category: corpus
+  subcat: general purpose
+  link: https://tscorpus.com/corpora/
+  license: custom
+  available: needs login, not sure if downloadable
+  citations: [sezer2017]
+- name: TRmorph
+  dsc: A Turkish morphological analyzer
+  category: morphological analyzer
+  subcat: morphological analyzer
+  tags: [morphology, finite-state]
+  license: MIT
+  citation: [coltekin2010lrec, coltekin2014lrec]
+  link: https://github.com/coltekin/TRmorph
+  demourl: http://coltekin.net/cagri/trmorph/
+  paperurl: http://coltekin.net/cagri/trmorph/
+- name: Zemberek
+  dsc: A Java NLP toolkit
+  logname: NLP tools for processing Turkish in Java
+  link: https://github.com/ahmetaa/zemberek-nlp
+  category: NLP tookit
+  subcat: NLP tookit
+  license: Apache
+  citation: [akin2007]
+- name: A morphological analyzer from Google
+  category: morphological analyzer
+  subcat: morphological analyzer
+  tags: [morphology, finite-state]
+  license: Apache
+  citation: [ozturel2019]
+  link: https://github.com/google-research/turkish-morphology
+- name: TRMOR
+  dsc: Another morphological analyzer (SFST)
+  category: morphological analyzer
+  subcat: morphological analyzer
+  tags: [morphology, finite-state]
+  license: Apache
+  citation: [kayabacs2019]
+  link: https://www.cis.uni-muenchen.de/~schmid/tools/SFST/
+- name: CHILDES/Aksu
+  dsc: Turkish data in CHILDES
+  category: corpus
+  subcat: child language
+  link: https://childes.talkbank.org/access/Other/Turkish/Aksu.html
+  license: CC-by-nc-sa
+  citations: [aksu-koc1985]
+- name: CHILDES/Atınkamış
+  dsc: Turkish data in CHILDES
+  category: corpus
+  subcat: child language
+  link: https://childes.talkbank.org/access/Other/Turkish/Aksu.html
+  license: CC-by-nc-sa
+  citations: [altinkamis2012]
+- name: PanLex
+  dsc: A multi-lingual lexical resource
+  link: https://panlex.org/
+  category: lexical resource
+  subcat: parllal lexicon
+  license:  CC0
+- name: BabelNet
+  dsc: A multi-lingual lexical resource
+  link: https://babelnet.org/
+  category: lexical resource
+  subcat: parllal semantic net
+  license:  CC-by-nc-nd
+- dsc: A multi-lingual sentiment lexicon
+  link: https://sites.google.com/site/datascienceslab/projects/multilingualsentiment
+  category: lexical resource
+  subcat: sentiment lexicon
+  license:  GPL
+  note: automatically generated semantic lexicon
+  citations: [chen2014]
+- name: KelimetriK
+  dsc: Turkish "wug-word" generator
+  category: lexical resource
+  subcat: wug-word genrator
+  citations: [erten2014]
+  license:  unknown
+- dsc: A corpus of Turkish cyberbullying
+  category: corpus
+  subcat: cyberbullying
+  citations: [ozel2017]
+  license:  unknown
+  notes: The paper is behind the IEEE paywall. There is another (2019) article on cyberbullying which claims to have a 3000 tweet data.
+- dsc: A collection of resources by Deniz Yüret
+  category: list
+  link: http://www.denizyuret.com/2006/11/turkish-resources.html
+- dsc: A project on a historical corpus
+  link: http://ttd.hacettepe.edu.tr/
+  notes: status is unclear
+  category: corpus
+  subcat: historical
+- name: trTenTen
+  dsc: A web corpus of Turkish (in Sketch Engine)
+  citations: [ambati2012]
+  link: https://www.sketchengine.co.uk/trtenten-turkish-corpus/
+  notes: not really a corpus, but maybe crawled.
+  category: corpus
+  subcat: webcrawl
+- dsc: Ottoman (local) newspapers
+  link: https://www.osmanlicagazeteler.org/
+  notes: not really a corpus, but maybe crawled.
+  category: none

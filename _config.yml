@@ -1,0 +1,13 @@
+# Site settings
+title: Tools & resources for Turkish NLP
+subtitle: > # ignore newlines until "description:"
+      Tools & resources for Turkish NLP
+description: > # ignore newlines until "baseurl:"
+baseurl: "/list"
+url: "https://TurkishNLP.github.io/list/"
+github_username:  turkishnlp
+encoding: utf-8
+future: true
+
+# Build settings
+markdown: kramdown
