@@ -15,7 +15,7 @@
 - name: TTC-4900
   dsc: A text categorization data set
   link: https://www.kaggle.com/savasy/ttc4900
-  citation: [kilinc2017]
+  citatiosn: [kilinc2017]
   category: corpus
   subcat: text categorization
   applications: [text categorization]
@@ -23,13 +23,13 @@
 - name: TTC-3600
   dsc: A text catogiraztion data set
   link: https://github.com/denopas/TTC-3600
-  citation: [kilinc2017]
+  citations: [kilinc2017]
   category: corpus
   subcat: text categorization
   applications: [text categorization]
   license: unknown
 - dsc: A sentiment analysis data set from İTÜ
-  citation: [yildirim2014sa]
+  citations: [yildirim2014sa]
   link: http://tools.nlp.itu.edu.tr/Datasets
   category: corpus
   subcat: sentiment analysis
@@ -38,14 +38,14 @@
   available: false
 - dsc: A sentiment analysis data set (from Eindhowen)
   link: https://www.win.tue.nl/~mpechen/projects/smm/#Datasets
-  citation: [demirtas2013]
+  citations: [demirtas2013]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
 - dsc: A sentiment analysis data set (from Başkent Uni.)
   link: http://www.baskent.edu.tr/~msert/research/datasets/SentimentDatasetTR.html
-  citation: [hayran2017]
+  citations: [hayran2017]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
@@ -53,7 +53,7 @@
   note: requires email
 - name: wikiann
   dsc: A multi-lingual Wikipedia named-entity data set
-  citation: [pan2017]
+  citations: [pan2017]
   link: https://elisa-ie.github.io/wikiann/
   category: corpus
   subcat: NER
@@ -69,20 +69,20 @@
   available: false
   license: unclear
 - dsc: A Twitter NER data set
-  citation: [kucuk2014]
+  citations: [kucuk2014]
   link: http://optima.jrc.it/Resources/2014_JRC_Twitter_TR_NER-dataset.zip
   category: corpus
   subcat: NER
   applications: [ner]
   license: unclear
 - dsc: A data set for NER and Stance detection
-  citation: [kucuk2019]
+  citations: [kucuk2019]
   category: corpus
   subcat: NER/stance
   link: https://github.com/dkucuk/Tweet-Dataset-NER-SD
   license: unclear
 - dsc: A NER data from METU
-  citation: [kucuk2009video,kucuk2009,kuccuk2016]
+  citations: [kucuk2009video,kucuk2009,kuccuk2016]
   link: https://github.com/dkucuk/NER-Turkish-News
   category: corpus
   subcat: NER
@@ -215,7 +215,7 @@
 - dsc: TED Multilingual Discourse Bank 
   subcat: discourse/multilingual
   longname: Turkish Discourse Bank 
-  citation: [zeyrek2018]
+  citations: [zeyrek2018]
   link: http://www.textlink.ii.metu.edu.tr/ted-multilingual-discourse-bank
   license: unclear
   available: false
@@ -226,6 +226,7 @@
   license: unclear
   available: through email
   note: emailed on 2020-07-17
+  citations: [tolgay2015]
 - dsc: BOUN newspaper corpus
   citations: [sak2011]
   category: corpus
@@ -332,7 +333,7 @@
   license: unclear
   notes: A short (about 200) list of emotion words. Maybe worth checking.
 - dsc: A sentiment analysis corpus from METU
-  citation: [yildirim2014]
+  citations: [yildirim2014]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
@@ -340,14 +341,14 @@
   available: false
 - dsc: An automatically labeled large sentiment analysis corpus
   link: http://user.ceng.metu.edu.tr/~karagoz/sfwc/
-  citation: [vural2014]
+  citations: [vural2014]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown, needs ClueWeb license
   note: this includes a list of http://lemurproject.org/clueweb09/ IDs
 - dsc: A corpus for political SA
-  citation: [kaya2013]
+  citations: [kaya2013]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
@@ -471,7 +472,7 @@
   citations: [ataman2018]
   notes: Original URL is at https://d-ataman.github.io/bianet/, but asks for a detailed form
 - dsc: A NER data set from Huawei research
-  citation: [sahin2017]
+  citations: [sahin2017]
   link: https://data.mendeley.com/datasets/cdcztymf4k/1
   category: corpus
   subcat: NER
@@ -498,7 +499,7 @@
   subcat: morphological analyzer
   tags: [morphology, finite-state]
   license: MIT
-  citation: [coltekin2010lrec, coltekin2014lrec]
+  citations: [coltekin2010lrec, coltekin2014lrec]
   link: https://github.com/coltekin/TRmorph
   demourl: http://coltekin.net/cagri/trmorph/
   paperurl: http://coltekin.net/cagri/trmorph/
@@ -509,13 +510,13 @@
   category: NLP tookit
   subcat: NLP tookit
   license: Apache
-  citation: [akin2007]
+  citations: [akin2007]
 - name: A morphological analyzer from Google
   category: morphological analyzer
   subcat: morphological analyzer
   tags: [morphology, finite-state]
   license: Apache
-  citation: [ozturel2019]
+  citations: [ozturel2019]
   link: https://github.com/google-research/turkish-morphology
 - name: TRMOR
   dsc: Another morphological analyzer (SFST)
@@ -523,7 +524,7 @@
   subcat: morphological analyzer
   tags: [morphology, finite-state]
   license: Apache
-  citation: [kayabacs2019]
+  citations: [kayabas2019]
   link: https://www.cis.uni-muenchen.de/~schmid/tools/SFST/
 - name: CHILDES/Aksu
   dsc: Turkish data in CHILDES
