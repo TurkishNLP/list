@@ -590,3 +590,37 @@
   link: https://www.osmanlicagazeteler.org/
   notes: not really a corpus, but maybe crawled.
   category: none
+- name: TrLex
+  dsc: A lexicon resource including (derivational) morphology
+  citations: [ozkan2018]
+  link: "email to the authors"
+  category: lexical resource
+  subcat: lexicon
+- dsc: A POS tagged data set of Turkish-German code switching
+  link: http://www.ims.uni-stuttgart.de/institut/mitarbeiter/ozlem/LAW2016.html
+  citations: [cetinoglu2016lrec,cetinoglu2016]
+  category: corpus
+  subcat: code-switching
+- dsc: A code-switching corpus of Turkish-Dutch
+  citations: [papalexakis2014]
+  category: corpus
+  subcat: code-switching
+- dsc: A corpus manually annotated for morphology
+  citations: [kutlu2013]
+  category: corpus
+  subcat: morphological disambiguation
+- dsc: A summarization corpus 
+  citation: [kutlu2010]
+  category: corpus
+  subcat: summarization
+  notes: This includes two data sets, one seems to be summarized by crowd - unlike the other where the summaries are the abstracts of scientific papers. A later paper (ozsoy2010) also mentions a scientific paper data set.
+- name: TurkIE
+  dsc: Another NER data set (broken link)
+  link: http://www.cs.bilkent.edu.tr/~ilyas/TurkIE_Corpus.rar
+  note: broken link - maybe worth asking
+  category: corpus
+  subcat: ner
+- dsc: Kaggle old newspapers data for language identification
+  link: https://www.kaggle.com/alvations/old-newspapers
+  category: corpus
+  subcat: multi-lingual
