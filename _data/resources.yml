@@ -624,3 +624,9 @@
   link: https://www.kaggle.com/alvations/old-newspapers
   category: corpus
   subcat: multi-lingual
+- name: Leipzig corpora
+  dsc: A multilingual written corpora collection
+  link: https://corpora.uni-leipzig.de/
+  citations: [quasthoff2014]
+  category: corpus
+  subcat: multi-lingual
