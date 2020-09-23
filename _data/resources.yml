@@ -100,7 +100,7 @@
 - dsc: A NER data from İTÜ
   link: http://tools.nlp.itu.edu.tr/Datasets
   license: CC-by-nc-sa
-  citations: [seker2012,ccelikkaya2013]
+  citations: [seker2012,celikkaya2013]
   available: requires manual form
   category: corpus
   subcat: NER
@@ -137,6 +137,12 @@
   subcat: treebank
   license: CC-by-sa
   citations: [coltekin2015tlt]
+- dsc: Google dependency treebank
+  link: https://github.com/google-research-datasets/turkish-treebanks/
+  category: corpus
+  subcat: treebank
+  license: Apache
+  citations: [kayadelen2020]
 - name: UD-BOUN treebank
   dsc: Another treebank from BOUN
   link: https://github.com/boun-tabi/UD_Turkish-BOUN
@@ -296,7 +302,7 @@
   notes: Authors report IR results on radiology reports, but the corpus does not seem to be available.
 - name: BERTurk
   dsc: Monolingual BERT embeddings for Turkish
-  link: https://github.com/stefan-it/turkish-bert/tree/1.0.0
+  link: https://github.com/stefan-it/turkish-bert/
   doi: 10.5281/zenodo.3770923
   category: embeddings
   subcat: contextual/BERT
@@ -437,7 +443,7 @@
   citations: [yildiz2014]
   notes: The paper describes incomplete work on a parallel constituency treebank. Unclear if any actual treebank was published.
 - dsc: A Word-sense disambiguation data (?)
-  citations: [acikgoz2017,akccakaya2019]
+  citations: [acikgoz2017,akcakaya2019]
   license: unclear
   category: lexical resource
   subcat: WSD
