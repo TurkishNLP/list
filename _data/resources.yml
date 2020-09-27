@@ -643,4 +643,9 @@
   link: https://ufal.mff.cuni.cz/universal-derivations
   category: lexical resource
   subcat: lexicon
-  notes: email sent 2020-09-27
+- name: UniMorph
+  dsc: A multi-lingual inflectional lexicon (scraped from wiktionary)
+  citations: [sylak-glassman2015,kiro2016]
+  link: https://unimorph.github.io/
+  category: lexical resource
+  subcat: lexicon
