@@ -599,9 +599,10 @@
 - name: TrLex
   dsc: A lexicon resource including (derivational) morphology
   citations: [ozkan2018]
-  link: "email to the authors"
+  link: "email to the author"
   category: lexical resource
   subcat: lexicon
+  notes: email sent 2020-09-27
 - dsc: A POS tagged data set of Turkish-German code switching
   link: http://www.ims.uni-stuttgart.de/institut/mitarbeiter/ozlem/LAW2016.html
   citations: [cetinoglu2016lrec,cetinoglu2016]
@@ -636,3 +637,10 @@
   citations: [quasthoff2014]
   category: corpus
   subcat: multi-lingual
+- name: UDer
+  dsc: A (preliminary) multi-lingual resource for derivational morphology
+  citations: [kyjanek2019]
+  link: https://ufal.mff.cuni.cz/universal-derivations
+  category: lexical resource
+  subcat: lexicon
+  notes: email sent 2020-09-27
