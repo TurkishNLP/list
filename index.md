@@ -6,9 +6,12 @@ title: List of Turksh NLP tools and resources
 The following is a incomplete (work-in-progress), unorganized list of resources
 for Turkish natural language processing.
 If you want a particular resource to be included in this list,
-or if you spot any inaccuracies,
-please create an issue on our
+please fill 
+this [form](https://docs.google.com/forms/d/e/1FAIpQLSelhXsjGaKhNFyc2UnGSoeoagxqFnmdLqogCFCm2ErzmZ2y2w/viewform?usp=sf_link).
+Alternatively, 
+you can create an issue in the
 [GitHub repository](https://github.com/TurkishNLP/list)
+for suggesting new resources or reporting inaccuracies
 (pull requests are also welcome).
 
 {% assign sl = site.data.resources | sort: 'subcat' %}
