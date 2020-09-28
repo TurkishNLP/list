@@ -649,3 +649,11 @@
   link: https://unimorph.github.io/
   category: lexical resource
   subcat: lexicon
+- dsc: A corpus of aligned paraphrases
+  citations: [demir2012]
+  category: corpus
+  subcat: pharaphrase
+- dsc: A normalization lexicon / corpus
+  category: corpus
+  subcat: (social media normalization)
+  citations: [demir2018]
