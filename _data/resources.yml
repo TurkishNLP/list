@@ -658,3 +658,20 @@
   category: corpus
   subcat: (social media normalization)
   citations: [demir2018]
+- name: TELL
+  dsc: Turkish Electronic Living Lexicon
+  category: lexical resource
+  subcat: dictionary
+  citations: [inkelas2000]
+  link: http://linguistics.berkeley.edu/TELL/
+- name: SUTAV
+  dsc: A audio-visual database
+  category: corpus
+  subcat: audio-visual
+  citations: [topkaya2012]
+  available: contact authors
+- dsc: A morpheme-aligned prallel corpus (Turkish-Uzbek-English)
+  category: corpus
+  subcat: parallel (TR-KU-EN)
+  citations: [li2016]
+  available: false
