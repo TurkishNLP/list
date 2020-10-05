@@ -675,3 +675,34 @@
   subcat: parallel (TR-KU-EN)
   citations: [li2016]
   available: false
+- dsc: WSD data set from SemEval-2007 Task 12
+  link: http://www.fatih.edu.tr/~zorhan/senseval/senseval.htm
+  notes: Link down. Not only the web page but the whole university disappeared.
+  category: lexical resource
+  subcat: WSD
+  citations: [orhan2007]
+  available: maybe
+- dsc: Turkish/Turkic MT resources in Apertium
+  citations: [forcada2011,gokirmak2019]
+  link: https://apertium.org/
+  license: free / open source
+  notes: We may need to list other papers
+  category: corpus
+  subcat: parallel
+- dsc: Human-translated Arabic-Turkish parallel data
+  ciatations: [durgar-el-kahlout2019]
+  available: false
+  category: corpus
+  subcat: parallel
+- dsc: Gender identification on Twitter
+  ciatations: [sezerer2019]
+  category: corpus
+  subcat: author profiling (gender)
+  link: https://cloud.iyte.edu.tr/index.php/s/5DhqdlUCCdB60qG
+- name: TCL
+  dsc: A lexicon of discourse connectives
+  citations: [zeyrek2019]
+  category: lexical resource
+  subcat: discourse connectives
+  link: http://connective-lex.info/
+  notes: Claims to become part of connective-lex.info, but it is not yet there
