@@ -129,7 +129,7 @@
   subcat: treebank
   license: CCPL (doubtful)
   citations: [atalay2003,oflazer2003,sulubacak2016]
-  notes: acknowledge the contribution of BOUN
+  notes: acknowledge the contribution of BOUN, also there is a SUD version by burga2017
 - name: UD-GB
   dsc: A treebank of grammar-book examples
   link: https://github.com/UniversalDependencies/UD_Turkish-GB/
@@ -706,3 +706,8 @@
   subcat: discourse connectives
   link: http://connective-lex.info/
   notes: Claims to become part of connective-lex.info, but it is not yet there
+- dsc: A small code-switching corpus of Turkish-English
+  citations: [yirmibesoglu2018]
+  category: corpus
+  subcat: code-switching
+  link: http://tools.nlp.itu.edu.tr/Datasets
