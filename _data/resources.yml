@@ -711,3 +711,8 @@
   category: corpus
   subcat: code-switching
   link: http://tools.nlp.itu.edu.tr/Datasets
+- dsc: A small UD treebank of old Turkish/Turkic
+  link: https://github.com/UniversalDependencies/UD_Old_Turkish-Tonqq
+  category: corpus
+  subcat: treebank
+  license: CC0 1.0
