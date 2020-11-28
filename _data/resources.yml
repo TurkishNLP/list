@@ -716,3 +716,8 @@
   category: corpus
   subcat: treebank
   license: CC0 1.0
+- name: ODIN
+  dsc: A multi-lingual corpus of linguistic examples with glosses
+  link: https://odin.linguistlist.org/
+  category: corpus
+  license: unclear
