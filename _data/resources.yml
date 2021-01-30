@@ -721,3 +721,10 @@
   link: https://odin.linguistlist.org/
   category: corpus
   license: unclear
+- name: JW300
+  dsc: A parallel corpus of 300 languges (texts from Jehovah’s Witnesses)
+  link: http://zeljkoagic.github.io/jw300/
+  category: corpus
+  subcat: parallel
+  license: CC-BY-NC-SA
+  citations: [agic2019]
