@@ -734,3 +734,10 @@
   subcat: parallel
   license: CC-BY-NC-SA
   citations: [agic2019]
+- name: OSCAR
+  dsc: A multi-lingual collection of web-crawled data 
+  link: https://oscar-corpus.com/
+  category: corpus
+  subcat: multi-lingual
+  license: CC0
+  citations: [ortiz-suarez2019,ortiz-suarez2020]
