@@ -617,6 +617,12 @@
   citations: [kutlu2013]
   category: corpus
   subcat: morphological disambiguation
+  note: emailed on 2021-02-02, got the data on 2021-02-03
+- dsc: A 1M corpus with morphology (disambiguated "semi automatically")
+  citations: [hakkani-tur2002,yuret2006,dayanik2018]
+  category: corpus
+  subcat: morphological disambiguation
+  link: https://github.com/ai-ku/TrMor2018/tree/master/TrMor2018
 - dsc: A summarization corpus 
   citation: [kutlu2010]
   category: corpus
