@@ -749,3 +749,27 @@
   citations: [stepanov2014]
   available: "for research purposes upon signing Data Sharing Agreement with University of Trento"
   notes: I wasn't able to find a way to request the corpus on the web, asking the authors may be the only option -cc 2021-03-11
+- dsc: Fake-news detection data set from CLEF 2021 CheckIt!
+  category: corpus
+  subcat: fakenews
+  license: unclear
+  link: https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/tree/master/task1/data/subtask-1a--turkish
+- name: CoNLL-2017
+  dsc: Supplementary (raw) data for CoNLL-2017 UD parsing shared task
+  link: http://hdl.handle.net/11234/1-1989
+  category: corpus
+  subcat: multi-lingual
+  license: CC-NC-SA
+  citations: [zeman2017,ginter2017]
+- dsc: Broadcast news data from BOUN
+  category: corpus
+  subcat: speech
+  citations: [arisoy2009bn]
+  license: unclear
+  available: false
+- dsc: Data containing audio from movies and read-speech
+  category: corpus
+  subcat: speech
+  citations: [polat2020]
+  license: unclear
+  available: false
