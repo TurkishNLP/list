@@ -615,7 +615,7 @@
   subcat: morphological disambiguation
   link: https://github.com/ai-ku/TrMor2018/tree/master/TrMor2018
 - dsc: A summarization corpus 
-  citation: [kutlu2010]
+  citations: [kutlu2010]
   category: corpus
   subcat: summarization
   notes: This includes two data sets, one seems to be summarized by crowd - unlike the other where the summaries are the abstracts of scientific papers. A later paper (ozsoy2010) also mentions a scientific paper data set.
@@ -860,4 +860,4 @@
   subcat: summarization
   citations: [scialom2020]
   link: https://github.com/recitalAI/MLSUM
-    license: unclear
+  license: unclear
