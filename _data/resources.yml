@@ -51,15 +51,6 @@
   applications: [sentiment analysis]
   license: unknown
   note: requires email
-- name: wikiann
-  dsc: A multi-lingual Wikipedia named-entity data set
-  citations: [pan2017]
-  link: https://elisa-ie.github.io/wikiann/
-  category: corpus
-  subcat: NER
-  applications: [ner]
-  note: multilingual
-  license: ODC-by
 - dsc: A named-entity data set (from Bilkent)
   citations: [yeniterzi2011, tur2003]
   category: corpus
@@ -663,7 +654,7 @@
 - dsc: A normalization lexicon / corpus
   category: corpus
   subcat: (social media normalization)
-  citations: [demir2018]
+  citations: [demir2016]
 - name: TELL
   dsc: Turkish Electronic Living Lexicon
   category: lexical resource
