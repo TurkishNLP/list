@@ -272,7 +272,7 @@
 - dsc: Multilingual ATIS
   link: https://catalog.ldc.upenn.edu/LDC2019T04
   category: corpus
-  subcat: spoken (?)
+  subcat: NLU
   citations: [upadhyay2018]
   available: through LDC
   notes: Translation of original ATIS sentences
@@ -773,3 +773,100 @@
   citations: [polat2020]
   license: unclear
   available: false
+- name: XNLI
+  dsc: Cross-lingual natural language inference data including Turkish
+  category: corpus
+  subcat: NLI
+  citations: [conneau2018]
+  license: CC-BY
+  link: https://github.com/facebookresearch/XNLI
+- name: NLI-TR
+  dsc: Turkish (automatic) tranlstions of SNLI and MultiNLI
+  category: corpus
+  subcat: NLI
+  citations: [budur2020]
+  license: CC-BY-SA
+  link: https://github.com/boun-tabi/NLI-TR
+- name: SemEval 2017 Task 1
+  dsc: Sentence similarity data set
+  category: corpus
+  subcat: sentence similarity
+  citations: [cer2017]
+  license: CC-BY-SA
+  link: http://ixa2.si.ehu.eus/stswiki/index.php/Main_Page
+- name: MuST-C
+  dsc: A parallel spoken corpus of TED talks
+  category: corpus
+  subcat: speech
+  citations: [di-gangi2019,cattoni2021]
+  license: CC-BY-NC-ND
+  link: https://ict.fbk.eu/must-c/
+- name: Common Voice
+  dsc: A multi-lingual spoken corpus including Turkish
+  category: corpus
+  subcat: speech
+  citations: [morais2020]
+  license: CC-0
+  link: https://commonvoice.mozilla.org/en/datasets
+- name: XQuAD
+  dsc: A (small) multi-lingual corpus of question--answer pairs
+  category: corpus
+  subcat: qa
+  citations: [artetxe2020]
+  license: CC-BY-SA
+  link: https://github.com/deepmind/xquad
+- name: WikiAnn
+  dsc: A multilingual name tagging/linking data based on Wikipedia
+  category: corpus
+  subcat: ner
+  citations: [pan2017]
+  license: ODC-BY
+  link: https://elisa-ie.github.io/wikiann/
+- name: MKQA
+  dsc: A multi-lingual QA corpus from Apple
+  category: corpus
+  subcat: qa
+  citations: [longpre2020]
+  license: CC-BY-SA
+  link: https://github.com/apple/ml-mkqa
+- name: xSID
+  dsc: A multi-lingual intent and slot classification data
+  category: corpus
+  subcat: NLU
+  citations: [van-der-goot2021]
+  link: https://bitbucket.org/robvanderg/xsid/
+  license: CC-BY-SA
+- name: WikiLingua
+  dsc: A multi-lingual corpus of abstractive summarization
+  category: corpus
+  subcat: summarization
+  citations: [ladhak2020]
+  link: https://github.com/esdurmus/Wikilingua
+  license: CC-0
+- dsc: Marmara Turkish Coreference Resolution Corpus
+  citations: [schuller2017]
+  category: corpus
+  subcat: coreference
+  link: https://bitbucket.org/knowlp/marmara-turkish-coreference-corpus/
+  license: unclear
+- name: MediaSpeech
+  dsc: A multi-lingual speech corpus including Turkish
+  category: corpus
+  subcat: speech
+  citations: [kolobov2021]
+  license: CC-BY
+  link: https://github.com/NTRLab/MediaSpeech
+- name: Mega-COV
+  dsc: A large multi-lingual collection tweets (IDs) about COVID-19
+  category: corpus
+  subcat: speech
+  citations: [abdul-mageed2021]
+  license: CC-BY-NC-SA
+  link: https://github.com/UBC-NLP/megacov
+- name: MLSUM
+  dsc: A multi-lingual news corpus for abstractive summarization
+  category: corpus
+  subcat: summarization
+  citations: [scialom2020]
+  link: https://github.com/recitalAI/MLSUM
+    license: unclear
