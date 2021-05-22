@@ -861,3 +861,10 @@
   citations: [scialom2020]
   link: https://github.com/recitalAI/MLSUM
   license: unclear
+- name: TuPC-2016
+  dsc: A Turkish paraphrase corpus
+  citations: [eyecioglu2016]
+  category: corpus
+  subcat: pharaphrase
+  link: https://osf.io/wp83a/
+  licens: unclear
