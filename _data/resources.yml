@@ -1,14 +1,14 @@
 - name: TQuAD
-  dsc: A Q&A data set on Turkish & Islamic Science and History
+  dsc: A QA data set on Turkish & Islamic Science and History
   link: https://github.com/TQuad/turkish-nlp-qa-dataset
   license: unknown
   category: corpus
-  subcat: Q&A
+  subcat: qa
   applications: [ q&a ]
-- dsc: A Q&A data set from BOUN
+- dsc: A QA data set from BOUN
   license: unknown
   category: corpus
-  subcat: Q&A
+  subcat: qa
   applications: [ q&a ]
   citations: [derici2014]
   notes: Authors claim to release the data set, but no link in the article.
@@ -50,9 +50,9 @@
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
-  note: requires email
+  note: requires email - sent 2020-07-21
 - dsc: A named-entity data set (from Bilkent)
-  citations: [yeniterzi2011, tur2003]
+  citations: [yeniterzi2011,tur2003]
   category: corpus
   subcat: NER
   applications: [ner]
@@ -114,7 +114,7 @@
   subcat: general purpose
   citations: [aksan2012]
 - name: UD-IMST
-  dsc: the oldest Turkish treebank (UD version)
+  dsc: the first Turkish treebank (UD version)
   link: https://github.com/UniversalDependencies/UD_Turkish-IMST/
   category: corpus
   subcat: treebank
@@ -148,7 +148,52 @@
   subcat: treebank
   license: CC-by-sa
   citations: [zeman2017]
-- dsc: İTÜ web treebank
+- name: Turkish-Penn-15
+  dsc: A constituency treebank of translation of sentences from the Penn TB
+  link: https://github.com/olcaytaner/TurkishAnnotatedTreeBank-15
+  category: corpus
+  subcat: treebank
+  license: unclear
+  citations: [yildiz2014,kara2020]
+- name: UD-Turkish_Penn
+  dsc: A treebank of translation of short sentences from the Penn TB (UD version)
+  link: https://github.com/UniversalDependencies/UD_Turkish-Penn/
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+- name: UD-Turkish_Tourism
+  dsc: A domain-specific treebank
+  link: https://github.com/UniversalDependencies/UD_Turkish-Tourism
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+- name: UD-Turkish_KeNet
+  dsc: Syntactically annotated examples from the WordNet KeNet
+  link: https://github.com/UniversalDependencies/UD_Turkish-Kenet
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+- name: UD-Turkish_FrameNet
+  dsc: Syntactically annotated examples from the Turkish FrameNet
+  link: https://github.com/UniversalDependencies/UD_Turkish-FrameNet/
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+- name: UD-SAGT
+  dsc: A spoken Turkish-German code-switching treebank
+  link: https://github.com/UniversalDependencies/UD_Turkish_German-SAGT
+  category: corpus
+  subcat: treebank
+  license: CC-by-sa
+- name: Turkish FrameNet
+  dsc: A FrameNet for Turkish
+  link:  https://github.com/StarlangSoftware/TurkishFrameNet
+  category: corpus
+  subcat: fremenet
+  license: unclear
+  citations: [marsan2021]
+- name: IWT
+  dsc: İTÜ web treebank
   link: http://tools.nlp.itu.edu.tr/Datasets
   category: corpus
   subcat: treebank
@@ -157,7 +202,7 @@
   available: requires signed for
 - dsc: Turksih WordNet from the BalkaNet project
   link: https://bitbucket.org/ozlemc/twn/downloads/?tab=downloads
-  citations: [bilgin2004]
+  citations: [bilgin2004,cetinoglu2018]
   category: lexical resource
   subcat: wordnet
   license: unclear
@@ -225,7 +270,7 @@
   note: emailed on 2020-07-17 - response 2020-07-20
   citations: [tolgay2015]
 - dsc: BOUN newspaper corpus
-  citations: [sak2011]
+  citations: [sak2008]
   category: corpus
   subcat: general purpose
   textsource: [newspaper]
@@ -292,12 +337,13 @@
   license: unknown
   notes: Authors report IR results on radiology reports, but the corpus does not seem to be available.
 - name: BERTurk
-  dsc: Monolingual BERT embeddings for Turkish
+  dsc: Monolingual BERT model for Turkish
   link: https://github.com/stefan-it/turkish-bert/
   doi: 10.5281/zenodo.3770923
-  category: embeddings
-  subcat: contextual/BERT
+  category: embedding
+  subcat: lm
   license: unclear
+  citations: [schweter2020]
 - name: SentiTurkNet
   dsc: A Turkish sentiment lexicon
   link: http://myweb.sabanciuniv.edu/rdehkharghani/sentiturknet-3/
@@ -399,8 +445,8 @@
 - dsc: Turkic word embeddings
   link: https://github.com/elmurod1202/crosLingWordEmbTurk
   citations: [kuriyozov2020]
-  category: corpus
-  subcat: web
+  category: embeding
+  subcat: word
   available: false
   license: unclear
   notes: Cross-lingual word embeddings for  Azeri, Kazakh, Kyrgyz, Turkish, and Uzbek. Also includes induced bilingual dictionaries.
@@ -413,12 +459,11 @@
   notes: seems to build on MST, also available (maybe different version) at http://tools.nlp.itu.edu.tr/Datasets
 - name: TrPropBank
   dsc: Another Turkish PropBank
-  citations: [kara2020]
+  citations: [ak2018a,ak2018b,kara2020prop]
   category: lexical resource
   subcat: PropBank
   license: unclear
-  available: false
-  notes: It is unclear if there is any relation with the other prop bank, likely not
+  link: https://github.com/StarlangSoftware/TurkishPropBank
 - name: KeNet
   dsc: Another Turkish WordNet
   link: https://github.com/StarlangSoftware/TurkishWordNet/raw/master/src/main/resources/turkish_wordnet.xml
@@ -427,15 +472,8 @@
   subcat: wordnet
   license: unclear
   note: link <http://haydut.isikun.edu.tr/kenet.html> from the paper is broken, emailed on 2020-07-28 - response 2020-08-08 (from a second trial
-- dsc: A work on TR-EN parallel constituency treebank
-  link: https://github.com/olcaytaner/TurkishAnnotatedTreeBank-15
-  category: corpus
-  subcat: treebank
-  license: unclear
-  citations: [yildiz2014]
-  notes: The paper describes incomplete work on a parallel constituency treebank. The relation/differences between the linked repo and the paper is unclear.
-- dsc: A Word-sense disambiguation data (?)
-  citations: [acikgoz2017,akcakaya2019]
+- dsc: A Word-sense disambiguation data
+  citations: [acikgoz2017,akcakaya2018,akcakaya2019]
   license: unclear
   category: lexical resource
   subcat: WSD
@@ -451,9 +489,28 @@
   link: http://tools.nlp.itu.edu.tr/Datasets
   longname: İTÜ social media normalization data
   category: corpus
-  subcat: (social media normalization)
+  subcat: social media normalization
   license: unclear
-  citations: [eryigit2017]
+  citations: [celikkaya2013,seker2017,eryigit2017]
+- dsc: A Twitter normalization data
+  link: https://github.com/talha252/tur-text-norm
+  category: corpus
+  subcat: social media normalization
+  license: unclear
+  citations: [colakoglu2019]
+  note: Also available from https://bitbucket.org/robvanderg/multilexnorm/src/master/data/tr/
+- dsc: Another Twitter normalization data
+  link: https://github.com/atubakoksal/annotated_tweets
+  category: corpus
+  subcat: social media normalization
+  license: unclear
+  citations: [koksal2020]
+- dsc: Normalization data for Turkis-German code switching
+  link: https://github.com/ozlemcek/TrDeNormData
+  category: corpus
+  subcat: social media normalization
+  license: unclear
+  citations: [cetinoglu2016,van-der-goot-etal-2021-lexical]
 - dsc: A corpus of student essays
   longname: Bilkent Student Essays Corpus
   link: https://github.com/selimfirat/bilkent-turkish-writings-dataset
@@ -610,7 +667,7 @@
   subcat: morphological disambiguation
   note: emailed on 2021-02-02, got the data on 2021-02-03
 - dsc: A 1M corpus with morphology (disambiguated "semi automatically")
-  citations: [hakkani-tur2002,yuret2006,dayanik2018]
+  citations: [hakkani-tur2002,yuret2006,sak2011,dayanik2018]
   category: corpus
   subcat: morphological disambiguation
   link: https://github.com/ai-ku/TrMor2018/tree/master/TrMor2018
@@ -653,7 +710,7 @@
   subcat: pharaphrase
 - dsc: A normalization lexicon / corpus
   category: corpus
-  subcat: (social media normalization)
+  subcat: social media normalization
   citations: [demir2016]
 - name: TELL
   dsc: Turkish Electronic Living Lexicon
@@ -661,6 +718,12 @@
   subcat: dictionary
   citations: [inkelas2000]
   link: http://linguistics.berkeley.edu/TELL/
+- name: LC-STAR
+  dsc: Multi-lingual speech lexica including Turkish
+  category: lexical resource
+  subcat: dictionary
+  citations: [fersoe2004]
+  note: Paper announces be availablity through ELRA
 - name: SUTAV
   dsc: A audio-visual database
   category: corpus
@@ -678,6 +741,11 @@
   category: lexical resource
   subcat: WSD
   citations: [orhan2007]
+  available: maybe
+- dsc: Another WSD data set
+  category: lexical resource
+  subcat: WSD
+  citations: [ilgen2012]
   available: maybe
 - dsc: Turkish/Turkic MT resources in Apertium
   citations: [forcada2011,gokirmak2019]
@@ -718,6 +786,7 @@
   link: https://odin.linguistlist.org/
   category: corpus
   license: unclear
+  citation: [lewis2006]
 - name: JW300
   dsc: A parallel corpus of 300 languges (texts from Jehovah’s Witnesses)
   link: http://zeljkoagic.github.io/jw300/
@@ -740,13 +809,16 @@
   citations: [stepanov2014]
   available: "for research purposes upon signing Data Sharing Agreement with University of Trento"
   notes: I wasn't able to find a way to request the corpus on the web, asking the authors may be the only option -cc 2021-03-11
-- dsc: Fake-news detection data set from CLEF 2021 CheckIt!
+- dsc: A data set for check-worthy claim detection
+  name: TrClaim-19
+  link: https://github.com/YSKartal/TrClaim19
   category: corpus
   subcat: fakenews
   license: unclear
-  link: https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/tree/master/task1/data/subtask-1a--turkish
+  citeations: [kartal2020]
+  note: Also used in CLEF 2021 shared task (at https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/tree/master/task1/data/subtask-1a--turkish)
 - name: CoNLL-2017
-  dsc: Supplementary (raw) data for CoNLL-2017 UD parsing shared task
+  dsc: Supplementary data for CoNLL-2017 UD parsing shared task
   link: http://hdl.handle.net/11234/1-1989
   category: corpus
   subcat: multi-lingual
@@ -867,4 +939,148 @@
   category: corpus
   subcat: pharaphrase
   link: https://osf.io/wp83a/
-  licens: unclear
+  license: unclear
+- dsc: Turkish word vectors and analogical reasoning task
+  citations: [gungor2017]
+  category: embeddings
+  subcat: word
+  link: https://github.com/onurgu/linguistic-features-in-turkish-word-representations
+  license: unclear
+- dsc: Another set of word2vec vectors
+  citations: [sen2014]
+  category: embeddings
+  subcat: word
+  link: http://myweb.sabanciuniv.edu/umutsen/research/
+  license: unclear
+  note: The link seems to be down (possibly for good)
+- name: TREMO
+  dsc: Emotion Dataset collected through a survey
+  link: http://demir.cs.deu.edu.tr/TREMO
+  citations: [tocoglu2018]
+  category: corpus
+  subcat: emotion
+- name: TURED
+  dsc: Twitter Emotion Dataset (automatically labeled)
+  link: http://demir.cs.deu.edu.tr/turted/
+  citations: [tocoglu2019]
+  category: corpus
+  subcat: emotion
+- name: TEL
+  dsc: Turkish Emotion Lexicon
+  link: http://demir.cs.deu.edu.tr/turkish-emotion-lexicon-tel-dataset/
+  citations: [tocoglu2019tel]
+  category: lexicon
+  subcat: emotion
+- name: METU-Sabancı treebank
+  dsc: the first Turkish treebank (original version)
+  link: https://ii.metu.edu.tr/metu-corpora-research-group
+  citations: [atalay2003,oflazer2003]
+  category: corpus
+  subcat: treebank
+  available: requires signed for
+- name: ParlaMint
+  dsc: Multi-lingual parliamentary corpora
+  link: http://hdl.handle.net/11356/1432
+  citations: [erjavec2021clarin]
+  category: corpus
+  subcat: parliementary
+  available: CC-BY
+- dsc: A Turkish-Dutch code-switching data set
+  link: https://www.dongnguyen.nl/data/dataset-emnlp2013.zip 
+  citations: [nguyen2013]
+  category: corpus
+  subcat: code switching
+- dsc: A Turkish-German code-switching data set (Twitter)
+  link: https://github.com/ozlemcek/TrDeNormData
+  citations: [cetinoglu2016lrec]
+  category: corpus
+  subcat: code switching
+- dsc: A Turkish-German code-switching data set (spoken)
+  link: https://github.com/UniversalDependencies/UD_Turkish_German-SAGT
+  citations: [cetinoglu2019]
+  category: corpus
+  subcat: code switching
+  license: CC-BY-SA
+  note: Contact the authors for audio recordings.
+- dsc: A Turkish-English code-switching data set (Twitter)
+  citations: [yirmibesoglu2018]
+  category: corpus
+  subcat: code switching
+- name: MULTLIT
+  dsc: A corpus of Turkish-German and Turkish-French bilinguals
+  citations: [schroeder2015]
+  link: https://www.uni-potsdam.de/de/daf/projekte/multilit
+  category: corpus
+  subcat: code switching
+- name: RUEG
+  dsc: Another bilingual corpus project including Turkish speakers in Germany
+  citations: [swiese2020]
+  link: https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/rueg
+  category: corpus
+  subcat: code switching
+- dsc: A data set of question-answer pairs
+  category: corpus
+  subcat: qa
+  citations: [amasyali2005]
+- dsc: A question answering data set (includes translation from SQuAD)
+  category: corpus
+  subcat: qa
+  citations: [gemirter2020]
+- name: BosphorusSign
+  dsc: A Turkish Sign Language Recognition Corpus in Health and Finance Domains
+  category: corpus
+  subcat: sign language
+  citations: [camgoz2016]
+- name: BosphorusSign
+  dsc: A Turkish Sign Language Recognition Corpus in Health and Finance Domains
+  category: corpus
+  subcat: sign language
+  link: https://www.cmpe.boun.edu.tr/pilab/BosphorusSign/bosphorusSign_en.html
+  citations: [camgoz2016]
+- dsc: Another Turkish Sign Language corpus
+  category: corpus
+  subcat: sign language
+  citations: [eryigit2020]
+- dsc: The first practical morphological analyzer for Turkish
+  category: morphological analyzer
+  subcat: morphological analyzer
+  citations: [oflazer1994]
+- name: ConceptNet
+  dsc: A multi-lingual semantic network
+  category: lexical resource
+  subcat: semantic
+  citations: [speer2018]
+  link: https://conceptnet.io/
+  license: CC-BY-SA
+- name: ConceptNet Numberbatch
+  dsc: Word vectors based on ConceptNet
+  category: embedding
+  subcat: word
+  citations: [speer2018]
+  link: https://github.com/commonsense/conceptnet-numberbatch
+  license: MIT
+- name: MUSE
+  dsc: Multi lingual embeddings
+  category: embedding
+  subcat: word
+  citations: [conneau2017]
+  link: https://github.com/facebookresearch/MUSE
+  license: CC-BY-NC
+- name: mBERT
+  dsc: Multi-lingual BERT model (incl. Turkish)
+  link: https://github.com/google-research/bert
+  category: embedding
+  subcat: lm
+  license: Apache
+  citeations: [devlin2019]
+- name: XML-R
+  dsc: Multi-lingual language model
+  category: embedding
+  subcat: lm
+  license: Apache
+  citeations: [conneau2020]
+  link: https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/
+- dsc: A translation of SentiStrength
+  citations: [vural2013a]
+  category: lexical resource
+  subcat: sentiment
