@@ -128,7 +128,8 @@
   subcat: treebank
   license: CC-by-sa
   citations: [coltekin2015tlt]
-- dsc: Google dependency treebank
+- name: TWT
+  dsc: Turkish Web Treebank by Google
   link: https://github.com/google-research-datasets/turkish-treebanks/
   category: corpus
   subcat: treebank
