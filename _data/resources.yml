@@ -404,7 +404,7 @@
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
-  note: another report of manually annotated Tweets (and movies sentiments), may be worth checking
+  note: another report of manually annotated Tweets (and movies sentiments) - Tweets recevied via email in a few days 2021-10-02
 - name: Global COE
   dsc:  A corpus of spoken Turkish from the Global COE Program 
   link: http://cblle.tufs.ac.jp/en/
@@ -1085,3 +1085,10 @@
   citations: [vural2013a]
   category: lexical resource
   subcat: sentiment
+- name: WikiPron
+  dsc: A multilingual pronunciation dictionary from Wiktionary
+  link: https://github.com/CUNY-CL/wikipron
+  citations: [lee2020]
+  license: Apache 2.0
+  subcat: dictionary
+  category: lexical resource
