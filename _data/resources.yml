@@ -1092,3 +1092,10 @@
   license: Apache 2.0
   subcat: dictionary
   category: lexical resource
+- name: Hurtlex
+  dsc: A multilingual lexicon of "words that hurt"
+  link: https://github.com/valeriobasile/hurtlex
+  citations: [bassignana2018]
+  license: CC BY-NC-SA
+  subcat: offensive language
+  category: lexical resource
