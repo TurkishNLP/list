@@ -43,6 +43,13 @@
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
+- dsc: A sentiment analysis data set scraped from an e-commerce site
+  link: https://github.com/ozturkaslii/analyze-turkish-sentiment
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: GPL?
+  note: As of 2021-12-09, the data file (ecommercereviews.csv) seems to be removed from the repo (but in the history).
 - dsc: A sentiment analysis data set (from Başkent Uni.)
   link: http://www.baskent.edu.tr/~msert/research/datasets/SentimentDatasetTR.html
   citations: [hayran2017]
@@ -51,6 +58,13 @@
   applications: [sentiment analysis]
   license: unknown
   note: requires email - sent 2020-07-21
+- dsc: SemEval2016task5
+  link: https://alt.qcri.org/semeval2016/task5/ 
+  citations: [pontiki2016]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: MS-NC-NoReD
 - dsc: A named-entity data set (from Bilkent)
   citations: [yeniterzi2011,tur2003]
   category: corpus
