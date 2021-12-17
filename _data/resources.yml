@@ -999,7 +999,7 @@
   citations: [erjavec2021clarin]
   category: corpus
   subcat: parliementary
-  available: CC-BY
+  license: CC-BY
 - dsc: A Turkish-Dutch code-switching data set
   link: https://www.dongnguyen.nl/data/dataset-emnlp2013.zip 
   citations: [nguyen2013]
@@ -1113,3 +1113,16 @@
   license: CC BY-NC-SA
   subcat: offensive language
   category: lexical resource
+- name: CoVoST 2
+  dsc: A Large-Scale Multilingual Speech-To-Text Translation Corpus
+  category: corpus
+  subcat: speech
+  citations: [wang2020]
+  license: CC-BY-NC
+  link: https://github.com/facebookresearch/covost
+- dsc: A Corpus of Grand National Assembly of Turkish Parliament’s Transcripts
+  link: https://github.com/onurgu/turkish-parliament-texts
+  citations: [gungor2018]
+  category: corpus
+  subcat: parliementary
+  license: unclear
