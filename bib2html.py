@@ -68,10 +68,11 @@ for item in sorted(db.entries.items(), key=lambda x: int(x[1].fields.get('year')
     if pages is not None:
         ppages = pages.replace('--', '&ndash;')
 
-    pdf = args.output_dir + '/' + key + '.pdf'
-    if not os.path.exists(pdf):
-        print("W: {} does not exist".format(pdf), file=sys.stderr)
-        pdf = None
+    pdf = None
+#    pdf = args.output_dir + '/' + key + '.pdf'
+#    if not os.path.exists(pdf):
+#        print("W: {} does not exist".format(pdf), file=sys.stderr)
+#        pdf = None
 
     bibfile = args.output_dir + '/' + key + '.bib'
 
