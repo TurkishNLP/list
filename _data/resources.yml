@@ -663,7 +663,7 @@
 - name: TrLex
   dsc: A lexicon resource including (derivational) morphology
   citations: [ozkan2018]
-  link: "email to the author"
+  link: "mailto:euzkan@gmail.com"
   category: lexical resource
   subcat: lexicon
   notes: email sent 2020-09-27 - received same day
