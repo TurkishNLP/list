@@ -830,7 +830,7 @@
   category: corpus
   subcat: fakenews
   license: unclear
-  citeations: [kartal2020]
+  citations: [kartal2020]
   note: Also used in CLEF 2021 shared task (at https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/tree/master/task1/data/subtask-1a--turkish)
 - name: CoNLL-2017
   dsc: Supplementary data for CoNLL-2017 UD parsing shared task
@@ -1087,13 +1087,13 @@
   category: embedding
   subcat: lm
   license: Apache
-  citeations: [devlin2019]
+  citations: [devlin2019]
 - name: XML-R
   dsc: Multi-lingual language model
   category: embedding
   subcat: lm
   license: Apache
-  citeations: [conneau2020]
+  citations: [conneau2020]
   link: https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/
 - dsc: A translation of SentiStrength
   citations: [vural2013a]
