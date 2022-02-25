@@ -1126,3 +1126,13 @@
   category: corpus
   subcat: parliementary
   license: unclear
+- dsc: Finite state pronunciation lexicon
+  citations: [oflazer2006]
+  category: lexical resource
+  subcat: speech
+  license: unclear
+- dsc: Turkish SAMPA encoding standard
+  link: https://www.phon.ucl.ac.uk/home/sampa/turkish.htm
+  category: misc
+  subcat: speech
+  license: unclear
