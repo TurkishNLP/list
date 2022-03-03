@@ -3,7 +3,7 @@ layout: default
 title: List of Turksh NLP tools and resources
 ---
 
-The following is a incomplete (work-in-progress), unorganized list of resources
+The following is an unorganized list of resources
 for Turkish natural language processing.
 If you want a particular resource to be included in this list,
 please fill 

@@ -1136,3 +1136,8 @@
   category: misc
   subcat: speech
   license: unclear
+- dsc: Hunspell dictionary for Turkish by the TDD group.
+  link: https://extensions.libreoffice.org/en/extensions/show/20565
+  category: lexical resource
+  subcat: spelling
+  license: MIT
