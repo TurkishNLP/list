@@ -216,7 +216,7 @@
   citations: [pamay2015]
   available: requires signed for
 - dsc: Turksih WordNet from the BalkaNet project
-  link: https://bitbucket.org/ozlemc/twn/downloads/?tab=downloads
+  link: https://github.com/ozlemcek/twn
   citations: [bilgin2004,cetinoglu2018]
   category: lexical resource
   subcat: wordnet
