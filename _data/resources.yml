@@ -1141,3 +1141,10 @@
   category: lexical resource
   subcat: spelling
   license: MIT
+- name: TrMWELexicon
+  dsc: A multiword expressions lexicon
+  link: https://github.com/ozlemcek/TrMWELexicon
+  citations: [oflazer2004]
+  license: unclear
+  category: lexical resource
+  subcat: mwe
