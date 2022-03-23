@@ -155,7 +155,7 @@
   category: corpus
   subcat: treebank
   license: CC-by-sa
-  citations: [turk2020]
+  citations: [turk2022]
 - name: UD-PUD
   dsc: Turkish part of Google's parallel treebank
   link: https://github.com/UniversalDependencies/UD_Turkish-PUD/
@@ -1148,3 +1148,21 @@
   license: unclear
   category: lexical resource
   subcat: mwe
+- name: NRC-VAD
+  dsc: The NRC Valence, Arousal, and Dominance (English emotion lexicon translated to 100+ languages, including Turkish)
+  link: http://saifmohammad.com/WebPages/nrc-vad.html
+  citations: [mohammad2018,mohammad2020]
+  category: lexicon
+  subcat: emotion
+- name: NRC-EmoLex
+  dsc: NRC Word-Emotion Association Lexicon (English emotion lexicon translated to 100+ languages, including Turkish)
+  link: http://saifmohammad.com/WebPages/AccessResource.htm
+  citations: [mohammad2010,mohammad2013]
+  category: lexicon
+  subcat: emotion
+- name: NRC-EIL
+  dsc: NRC Emotion Intensity Lexicon (English emotion lexicon translated to 100+ languages, including Turkish)
+  link: http://saifmohammad.com/WebPages/AffectIntensity.htm
+  citations: [mohammad2018,mohammad2020]
+  category: lexicon
+  subcat: emotion
