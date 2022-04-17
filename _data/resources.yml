@@ -1166,3 +1166,10 @@
   citations: [mohammad2018,mohammad2020]
   category: lexicon
   subcat: emotion
+- name: STSb-TR
+  dsc: A text similarity data set
+  category: corpus
+  subcat: sentence similarity
+  citations: [beken-fikri2021]
+  license: CC-BY-SA
+  link: https://github.com/verimsu/STSb-TR
