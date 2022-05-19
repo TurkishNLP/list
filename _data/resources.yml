@@ -272,8 +272,8 @@
 - dsc: TED Multilingual Discourse Bank 
   subcat: discourse/multilingual
   longname: Turkish Discourse Bank 
-  citations: [zeyrek2018]
-  link: http://www.textlink.ii.metu.edu.tr/ted-multilingual-discourse-bank
+  citations: [zeyrek2018,zeyrek2020]
+  link: https://github.com/MurathanKurfali/Ted-MDB-Annotations
   license: unclear
   available: false
 - dsc: METU Turkish Psycholinguistic Database
