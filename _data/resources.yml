@@ -612,6 +612,7 @@
   citations: [altinkamis2012]
 - name: PanLex
   dsc: A multi-lingual lexical resource
+  citations: [kamholz2014]
   link: https://panlex.org/
   category: lexical resource
   subcat: parllal lexicon
@@ -619,6 +620,7 @@
 - name: BabelNet
   dsc: A multi-lingual lexical resource
   link: https://babelnet.org/
+  citations: [navigli2012]
   category: lexical resource
   subcat: parllal semantic net
   license:  CC-by-nc-nd
@@ -937,10 +939,17 @@
 - name: Mega-COV
   dsc: A large multi-lingual collection tweets (IDs) about COVID-19
   category: corpus
-  subcat: speech
+  subcat: covid19
   citations: [abdul-mageed2021]
   license: CC-BY-NC-SA
   link: https://github.com/UBC-NLP/megacov
+- name: GeoCoV19
+  dsc: A multi-lingual collection tweets (IDs) about COVID-19 with geolocation
+  category: corpus
+  subcat: covid19
+  citations: [qazi2020]
+  license: unclear
+  link: https://crisisnlp.qcri.org/covid19
 - name: MLSUM
   dsc: A multi-lingual news corpus for abstractive summarization
   category: corpus
@@ -1045,11 +1054,6 @@
   dsc: A Turkish Sign Language Recognition Corpus in Health and Finance Domains
   category: corpus
   subcat: sign language
-  citations: [camgoz2016]
-- name: BosphorusSign
-  dsc: A Turkish Sign Language Recognition Corpus in Health and Finance Domains
-  category: corpus
-  subcat: sign language
   link: https://www.cmpe.boun.edu.tr/pilab/BosphorusSign/bosphorusSign_en.html
   citations: [camgoz2016]
 - dsc: Another Turkish Sign Language corpus
@@ -1088,7 +1092,7 @@
   subcat: lm
   license: Apache
   citations: [devlin2019]
-- name: XML-R
+- name: XLM-R
   dsc: Multi-lingual language model
   category: embedding
   subcat: lm
