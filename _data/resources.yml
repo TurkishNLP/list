@@ -1177,3 +1177,8 @@
   citations: [beken-fikri2021]
   license: CC-BY-SA
   link: https://github.com/verimsu/STSb-TR
+- dsc: A spoken _English_ corpus of Turkish learners
+  category: corpus
+  subcat: learner
+  citations: [genc-yontem2021]
+  license: unclear
