@@ -1,7 +1,7 @@
 # Site settings
-title: Tools & resources for Turkish NLP
+title: Resources for Turkish NLP
 subtitle: > # ignore newlines until "description:"
-      Tools & resources for Turkish NLP
+      Resources for Turkish NLP
 description: > # ignore newlines until "baseurl:"
 baseurl: "/list"
 url: "https://TurkishNLP.github.io/list/"

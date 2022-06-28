@@ -698,7 +698,7 @@
   link: http://www.cs.bilkent.edu.tr/~ilyas/TurkIE_Corpus.rar
   note: broken link - maybe worth asking
   category: corpus
-  subcat: ner
+  subcat: NER
 - dsc: Kaggle old newspapers data for language identification
   link: https://www.kaggle.com/alvations/old-newspapers
   category: corpus
@@ -898,7 +898,7 @@
 - name: WikiAnn
   dsc: A multilingual name tagging/linking data based on Wikipedia
   category: corpus
-  subcat: ner
+  subcat: NER
   citations: [pan2017]
   license: ODC-BY
   link: https://elisa-ie.github.io/wikiann/
@@ -1182,3 +1182,23 @@
   subcat: learner
   citations: [genc-yontem2021]
   license: unclear
+- dsc: A hate-speech data set from Sabancı University
+  category: corpus
+  subcat: offensive language
+  textsource: [twitter]
+  link: https://github.com/verimsu/Turkish-HS-Dataset
+  citations: [beyhan2022]
+  license: CC-by
+- dsc: A hate-speech data set from Aselsan
+  category: corpus
+  subcat: offensive language
+  textsource: [twitter]
+  link: https://github.com/avaapm/hatespeech
+  citations: [toraman2022]
+  license: CC-by
+- dsc: Another Twitter NER data set from Sabancı University
+  link: https://github.com/SU-NLP/SUNLP-Twitter-NER-Dataset
+  citations: [carik2022]
+  category: corpus
+  subcat: NER
+  applications: [ner]

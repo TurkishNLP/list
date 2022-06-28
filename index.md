@@ -1,6 +1,6 @@
 ---
 layout: default
-title: List of Turksh NLP tools and resources
+title: A List of Turksh NLP Resources
 ---
 
 The following is an unorganized list of resources
