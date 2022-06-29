@@ -1202,3 +1202,37 @@
   category: corpus
   subcat: NER
   applications: [ner]
+- name: TurEV-DB
+  dsc: An emotion-voice corpus (METU)
+  category: corpus
+  subcat: speech,emotion
+  citations: [canpolat2020]
+  license: unclear
+  note: Paper indicates intention to publicly release the data, but not published yet (as of 2022-06-29)
+- dsc: An emotion-voice corpus (Boğaziçi)
+  category: corpus
+  subcat: speech,emotion
+  citations: [kaya2014]
+  license: unclear
+- name: AUTSL
+  dsc: Another turkish sign language corpus
+  category: corpus
+  subcat: sign language
+  link: https://cvml.ankara.edu.tr
+  citations: [sincan2020]
+  note: broken link
+- name: TR-SEQ
+  dsc: A named-entity data set of search engine queries
+  citations: [topcu2021]
+  category: corpus
+  subcat: NER
+  applications: [ner]
+  notes: used in quite a few studies, not publicly avialable
+  available: research purposes, through contact with the authors
+  license: unclear
+- dsc: A dataset for checking gender bias
+  citations: [ciora2021]
+  category: corpus
+  subcat: misc
+  license: unclear
+  link: https://github.com/NurIren/Gender-Bias-in-TR-to-EN-MT-Models
