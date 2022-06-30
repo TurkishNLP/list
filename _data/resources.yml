@@ -787,7 +787,7 @@
   category: lexical resource
   subcat: discourse connectives
   link: http://connective-lex.info/
-  notes: Claims to become part of connective-lex.info, but it is not yet there
+  license: CC BY-NC-SA 4.0
 - dsc: A small code-switching corpus of Turkish-English
   citations: [yirmibesoglu2018]
   category: corpus
