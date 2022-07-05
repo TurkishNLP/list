@@ -1236,3 +1236,10 @@
   subcat: misc
   license: unclear
   link: https://github.com/NurIren/Gender-Bias-in-TR-to-EN-MT-Models
+- dsc: Another Twitter (targeted) sentiment analysis data set
+  citations: [mutlu2022]
+  category: corpus
+  subcat: sentiment analysis
+  applications: [sentiment analysis]
+  license: unknown
+  note: email request sent 2022-07-05
