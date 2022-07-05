@@ -1243,3 +1243,10 @@
   applications: [sentiment analysis]
   license: unknown
   note: email request sent 2022-07-05
+- dsc: A semantically-annotted (based on UCCA) data set of 50 sentences from the METU-Sabancı treebank
+  citations: [bolucu2022]
+  category: corpus
+  subcat: semantic analysis
+  applications: [semantic parsing]
+  license: unknown
+  link: https://github.com/necvabolucu/semantic-dataset
