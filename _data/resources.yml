@@ -70,7 +70,7 @@
   category: corpus
   subcat: NER
   applications: [ner]
-  notes: used in quite a few studies, not publicly avialable
+  notes: used in quite a few studies, not publicly available
   available: false
   license: unclear
 - dsc: A Twitter NER data set
@@ -101,7 +101,7 @@
   available: false
   category: corpus
   subcat: NER
-  notes: multiple data sets from the same grup, the second study claims to include multiple domains. somewhat mystical data description in the paper - may be worth asking
+  notes: multiple data sets from the same group, the second study claims to include multiple domains. somewhat mystical data description in the paper - may be worth asking
 - dsc: A NER data from İTÜ
   link: http://tools.nlp.itu.edu.tr/Datasets
   license: CC-by-nc-sa
@@ -215,7 +215,7 @@
   license: CC-by-nc-sa
   citations: [pamay2015]
   available: requires signed for
-- dsc: Turksih WordNet from the BalkaNet project
+- dsc: Turkish WordNet from the BalkaNet project
   link: https://github.com/ozlemcek/twn
   citations: [bilgin2004,cetinoglu2018]
   category: lexical resource
@@ -229,7 +229,7 @@
   link: http://www.statmt.org/setimes/
   license: custom
   citations: [tyers2010]
-  notes: Part of parallel corpora for Balkan languages (also avialable as part of OPUS)
+  notes: Part of parallel corpora for Balkan languages (also available as part of OPUS)
 - name: IWLST 2013
   dsc: Parallel spoken language corpus 
   category: corpus
@@ -253,7 +253,7 @@
   link: http://opus.nlpl.eu/
   license: various free
   citations: [tiedemann2012]
-  notes:"Collection of parallel corpora. A few collections including include Turkish corpora: SETimes, opensubtitles, EUBookshop, Tatoeba, Tanzil, and a number of localization projects (KDE, GNOME, Ubuntu, ...}"
+  notes: "Collection of parallel corpora. A few collections including include Turkish corpora: SETimes, opensubtitles, EUBookshop, Tatoeba, Tanzil, and a number of localization projects (KDE, GNOME, Ubuntu, ...}"
 - name: BTEC
   dsc: Basic Traveling Expression Corpus (multilingual)
   category: corpus
@@ -418,7 +418,7 @@
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
-  note: another report of manually annotated Tweets (and movies sentiments) - Tweets recevied via email in a few days 2021-10-02
+  note: another report of manually annotated Tweets (and movies sentiments) - Tweets received via email in a few days 2021-10-02
 - name: Global COE
   dsc:  A corpus of spoken Turkish from the Global COE Program 
   link: http://cblle.tufs.ac.jp/en/
@@ -453,14 +453,14 @@
 - dsc: A corpus of referring expressions
   citations: [acarturk2012]
   category: corpus
-  subcat: dialog w/ refferring expr.
+  subcat: dialog w/ referring expr.
   available: false
   license: unclear
   notes: most probably not finished, but there may be data. It may be worth to ask.
 - dsc: Turkic word embeddings
   link: https://github.com/elmurod1202/crosLingWordEmbTurk
   citations: [kuriyozov2020]
-  category: embeding
+  category: embedding
   subcat: word
   available: false
   license: unclear
@@ -527,14 +527,12 @@
   license: unclear
   citations: [cetinoglu2016,van-der-goot-etal-2021-lexical]
 - dsc: A corpus of student essays
-  longname: Bilkent Student Essays Corpus
   link: https://github.com/selimfirat/bilkent-turkish-writings-dataset
   category: corpus
   subcat: student essays
   license: unclear
   notes: The original files are at https://stars.bilkent.edu.tr/turkce/
-- name: The BiaNet corpus (parallel TR-KU-EN)
-  longname: BiaNet parallel corpus
+- dsc: The BiaNet corpus (parallel TR-KU-EN)
   category: corpus
   subcat: parallel (TR-KU-EN)
   link: http://opus.nlpl.eu/Bianet.php
@@ -724,7 +722,7 @@
 - dsc: A corpus of aligned paraphrases
   citations: [demir2012]
   category: corpus
-  subcat: pharaphrase
+  subcat: paraphrase
 - dsc: A normalization lexicon / corpus
   category: corpus
   subcat: social media normalization
@@ -740,14 +738,14 @@
   category: lexical resource
   subcat: dictionary
   citations: [fersoe2004]
-  note: Paper announces be availablity through ELRA
+  note: Paper announces be availability through ELRA
 - name: SUTAV
   dsc: A audio-visual database
   category: corpus
   subcat: audio-visual
   citations: [topkaya2012]
   available: contact authors
-- dsc: A morpheme-aligned prallel corpus (Turkish-Uzbek-English)
+- dsc: A morpheme-aligned parallel corpus (Turkish-Uzbek-English)
   category: corpus
   subcat: parallel (TR-KU-EN)
   citations: [li2016]
@@ -861,7 +859,7 @@
   license: CC-BY
   link: https://github.com/facebookresearch/XNLI
 - name: NLI-TR
-  dsc: Turkish (automatic) tranlstions of SNLI and MultiNLI
+  dsc: Turkish (automatic) translations of SNLI and MultiNLI
   category: corpus
   subcat: NLI
   citations: [budur2020]
@@ -1236,14 +1234,14 @@
   subcat: misc
   license: unclear
   link: https://github.com/NurIren/Gender-Bias-in-TR-to-EN-MT-Models
-- dsc: Another Twitter (targeted) sentiment analysis data set
+- dsc: A (targeted) Twitter sentiment analysis data set from BOUN
   citations: [mutlu2022]
   category: corpus
   subcat: sentiment analysis
   applications: [sentiment analysis]
   license: unknown
-  note: email request sent 2022-07-05
-- dsc: A semantically-annotted (based on UCCA) data set of 50 sentences from the METU-Sabancı treebank
+  note: email request sent on 2022-07-05 - response with date on 2022-07-07
+- dsc: A semantically-annotated (based on UCCA) data set of 50 sentences from the METU-Sabancı treebank
   citations: [bolucu2022]
   category: corpus
   subcat: semantic analysis
