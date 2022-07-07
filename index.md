@@ -1,10 +1,12 @@
 ---
 layout: default
-title: A List of Turksh NLP Resources
+title: A List of Turkish NLP Resources
 ---
 
 The following is an unorganized list of resources
 for Turkish natural language processing.
+The survey paper that resulted in this list can be found
+[here](https://arxiv.org/abs/2204.05042).
 If you want a particular resource to be included in this list,
 please fill 
 this [form](https://docs.google.com/forms/d/e/1FAIpQLSelhXsjGaKhNFyc2UnGSoeoagxqFnmdLqogCFCm2ErzmZ2y2w/viewform?usp=sf_link).
