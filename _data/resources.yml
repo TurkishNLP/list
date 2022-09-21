@@ -1248,3 +1248,9 @@
   applications: [semantic parsing]
   license: unknown
   link: https://github.com/necvabolucu/semantic-dataset
+- dsc: A dataset for irony detection
+  citations: [cemek2020]
+  category: corpus
+  subcat: misc
+  license: unclear
+  link: https://github.com/teghub/IronyTR
