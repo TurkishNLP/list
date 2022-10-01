@@ -337,6 +337,14 @@
   available: through LDC
   notes: Translation of original ATIS sentences
   license: LDC
+- name: CoTY
+  dsc: The Corpus of Turkish Youth Language
+  link: https://osf.io/ek4z8/
+  category: corpus
+  subcat: spoken
+  citations: [efeoglu2022]
+  notes: The OSF repository is currenly empty
+  license: CC-BY
 - name: GlobalPhone
   dsc: A Multilingual Text & Speech Database in 20 Languages
   link: http://catalog.elra.info/en-us/repository/browse/ELRA-S0400/
