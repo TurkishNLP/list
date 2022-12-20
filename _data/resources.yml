@@ -50,7 +50,7 @@
   applications: [sentiment analysis]
   license: GPL?
   note: As of 2021-12-09, the data file (ecommercereviews.csv) seems to be removed from the repo (but in the history).
-- nakme: TRSAv1
+- name: TRSAv1
   dsc: A Twitter sentiment analysis data set
   link: https://github.com/maydogan23/TRSAv1-Dataset
   citations: [aydogan2022]
