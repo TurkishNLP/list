@@ -1283,3 +1283,9 @@
   citations: [valk2021]
   license: CC-BY 4.0
   link: http://bark.phon.ioc.ee/voxlingua107/
+- dsc: ISSAI Tukic speech corpus
+  category: corpus
+  subcat: speech
+  citations: [mussakhojayeva2023]
+  license: CC-BY 4.0
+  link: https://doi.org/10.48342/0xes-sf45
