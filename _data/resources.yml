@@ -843,7 +843,7 @@
   name: TrClaim-19
   link: https://github.com/YSKartal/TrClaim19
   category: corpus
-  subcat: fakenews
+  subcat: factchecking
   license: unclear
   citations: [kartal2020]
   note: Also used in CLEF 2021 shared task (at https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/tree/master/task1/data/subtask-1a--turkish)
@@ -1289,3 +1289,18 @@
   citations: [mussakhojayeva2023]
   license: CC-BY 4.0
   link: https://doi.org/10.48342/0xes-sf45
+- name: MADAR-Turk
+  dsc: A parallel corpus of (dialectal) Arabic - Turkish
+  citations: [alkheder2023]
+  link: http://resources.camel-lab.com/
+  license: CC BY-SA 4.0
+  notes: Requires a form before download
+  category: corpus
+  subcat: parallel
+- name: X-FACT
+  dsc: A cross-lingual fact-checking data set including Turkish
+  link: https://paperswithcode.com/dataset/x-fact
+  category: corpus
+  subcat: factchecking
+  license: unclear
+  citations: [gupta2021]
