@@ -253,6 +253,13 @@
   link: https://coltekin.github.io/offensive-turkish/
   citations: [coltekin2020lrec]
   license: CC-by
+- dsc: An Twitter offensive language data set with context
+  category: corpus
+  subcat: offensive language
+  textsource: [twitter]
+  link: https://github.com/boun-tabi/CovidOffensiveLanguageUltimateDatasets
+  citations: [ihtiyar2023]
+  license: CC-by
 - name: OPUS
   dsc: Multi-lingual open, parallel corpora
   category: corpus
