@@ -1311,3 +1311,10 @@
   subcat: factchecking
   license: unclear
   citations: [gupta2021]
+- name: XCOPA
+  dsc: A multilingual dataset for causal commonsense reasoning
+  link: https://github.com/cambridgeltl/xcopa
+  category: corpus
+  subcat: common sense
+  license:  CC-BY-4.0
+  citations: [ponti2020]
