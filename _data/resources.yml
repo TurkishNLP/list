@@ -1318,3 +1318,8 @@
   subcat: common sense
   license:  CC-BY-4.0
   citations: [ponti2020]
+- dsc: A collection of historical newspapers (1928-1942) by Istanbl University Library
+  note: PDF archives with OCR (rather noisy)
+  link: http://nek.istanbul.edu.tr:4444/ekos/GAZETE/i
+  subcat: historical
+  license: unclear
