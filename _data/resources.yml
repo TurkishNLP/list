@@ -253,7 +253,7 @@
   link: https://coltekin.github.io/offensive-turkish/
   citations: [coltekin2020lrec]
   license: CC-by
-- dsc: An Twitter offensive language data set with context
+- dsc: A Twitter offensive language data set with context
   category: corpus
   subcat: offensive language
   textsource: [twitter]
